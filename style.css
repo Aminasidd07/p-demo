@@ -1,0 +1,125 @@
+/* Green horizontal line below navbar */
+.green-line {
+    height: 3px;
+    background-color: #198754;
+    /* Bootstrap success color */
+    width: 100%;
+}
+
+/* Navbar links hover color */
+.nav-link {
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .dropdown:hover>.nav-link {
+    color: #198754;
+}
+
+/* Optional: Ensure logo image max height */
+.navbar-brand img {
+    max-height: 40px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: none;
+}
+
+.card i {
+    display: block;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.about-us {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.about-title {
+    color: #6cc24a; /* Green heading */
+    font-weight: bold;
+}
+
+.about-us p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.btn-success {
+    background-color: #6cc24a;
+    border: none;
+}
+.phone-front {
+    position: relative;
+    z-index: 2;
+    width: 260px;
+    height: 430px;
+}
+
+.phone-back {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    z-index: 1;
+    width: 250px;
+    height: 415px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.testimonial-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}/* Green header banner */
+.green-banner {
+    background-color: #5BC236; /* Bright green */
+}
+
+/* Disclaimer text */
+.disclaimer-text p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #000; /* Black footer */
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Social media icons */
+.social-icons a {
+    color: #5BC236; /* Green icons */
+    margin-left: 10px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}

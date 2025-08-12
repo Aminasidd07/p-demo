@@ -1,0 +1,29 @@
+body {
+    background: url('images/banner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+}
+.footer {
+    background-color: #000; /* Black footer */
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Social media icons */
+.social-icons a {
+    color: #5BC236; /* Green icons */
+    margin-left: 10px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
