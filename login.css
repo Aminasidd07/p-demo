@@ -1,5 +1,7 @@
 body {
-    background: url('images/banner.jpg') no-repeat center center fixed;
+    background: url('images/banner.jpg') ;
+    background-repeat: no-repeat;
+    background-position:   fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
 }
@@ -9,16 +11,16 @@ body {
     border-radius: 8px;
 }
 .footer {
-    background-color: #000; /* Black footer */
+    background-color: #000; 
 }
 
 .footer p {
     margin: 0;
 }
 
-/* Social media icons */
+
 .social-icons a {
-    color: #5BC236; /* Green icons */
+    color: #5BC236; 
     margin-left: 10px;
     font-size: 18px;
     transition: color 0.3s ease;

@@ -9,19 +9,19 @@ body {
   padding: 20px;
 }
 .footer {
-    background-color: #000; /* Black footer */
+    background-color: #000; 
 }
 
 .footer p {
     margin: 0;
 }
 
-/* Social media icons */
+
 .social-icons a {
-    color: #5BC236; /* Green icons */
+    color: #5BC236; 
     margin-left: 10px;
     font-size: 18px;
-    transition: color 0.3s ease;
+   
 }
 
 .social-icons a:hover {
